@@ -1,6 +1,7 @@
 function xylem (num){
 let sum=0,last=num%10
 num=parseInt(num/10);
+console.log(num,'num');
 while(num>9){
     sum+=num%10;
     num=parseInt(num/10)

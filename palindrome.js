@@ -3,9 +3,9 @@ function palindrome (num){
 //    console.log(parseInt(num%10))
     while (num>0){
         rev=parseInt(rev*10+num%10);
-        console.log(rev)
+        console.log(rev,'rev')
         num=parseInt(num/10);
-        console.log(num)
+        console.log(num,'num')
     }
     
     if (temp==rev){

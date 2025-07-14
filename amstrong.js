@@ -1,6 +1,6 @@
 function amstrong(num){
     let mul=num.toString().split("");
-    console.log(mul)
+    // console.log(mul)
     let count=0,product=1;
     for(let i=0;i<mul.length;i++){
         let temp=mul.length;
@@ -8,10 +8,11 @@ function amstrong(num){
             product*=parseInt(mul[i])
             temp--
         }
+        console.log(product)
         count+=product
         product=1
     }
-    console.log(count)
+    // console.log(count)
     // let res=18890877
     // while(res>9){
     //     res/=10;
